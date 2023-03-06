@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Global 변수 선언
         dockerRepo = "kubehatesme/edu1"
-        dockerCredentials = 'kt_edu15_docker_ci'
+        dockerCredentials = 'docker_ci_edu7'
         dockerImageVersioned = ""
         dockerImageLatest = ""
     }
